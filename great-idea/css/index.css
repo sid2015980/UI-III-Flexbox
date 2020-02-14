@@ -233,7 +233,6 @@ footer h4 {
   justify-content: space-between;
   width: 100%;
   margin-top: 30px;
-  /* justify-content: center; */
   align-items: center;
 }
 #list ul{
@@ -245,22 +244,36 @@ footer h4 {
 margin-top:40px;
  }
 
- .columnOne{
-   margin-top: 30px;
-   display: flex;
-   flex-direction: column;
- }
-
- .columnTwo{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  /* align-content: space-around; */
-}
  .box{
    background-color: lightgrey;
-   height: 200px;
+   height: 250px;
    text-align: justify;
+   line-height: 1.5;
    margin-top: 15px;
-   width: 300px;
+   padding-top:25px;
+   padding-right: 25px;
+   padding-left: 25px;
+   padding-bottom: 25px;
+   flex-wrap: wrap;
+   width: 400px;
  }
+ .boxesOne{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+ .boxesTwo{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.boxesThree{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.allBoxes button{
+  margin-top: 10px;
+}
