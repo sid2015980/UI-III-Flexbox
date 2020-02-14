@@ -50,8 +50,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -109,9 +107,6 @@ body {
   line-height: 1;
 }
 ol,
-ul {
-  list-style: none;
-}
 blockquote,
 q {
   quotes: none;
@@ -214,7 +209,7 @@ footer h4 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 30px;
   align-items: center;
   margin-bottom: 30px;
  }
@@ -222,14 +217,50 @@ footer h4 {
    margin-top: 30px;
  }
  .services {
- border-top: 1px solid black;
+ border-bottom: 1px solid black;
   display: flex;
   width: 100%;
   justify-content:space-evenly
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top:30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top:20px;
  }
+
+ .lastSection {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  /* justify-content: center; */
+  align-items: center;
+}
+#list ul{
+  list-style: square;
+  margin-left: -20px;
+}
+
  footer p{
 margin-top:40px;
+ }
+
+ .columnOne{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .columnTwo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* align-content: space-around; */
+}
+ .box{
+   background-color: lightgrey;
+   height: 200px;
+   text-align: justify;
+   margin-top: 15px;
+   width: 300px;
  }
